@@ -24,7 +24,6 @@ connection.connect();
 connection.query(createAuthors, showResults);
 connection.query(addMentor, showResults);
 
-
 connection.end();
 
 
